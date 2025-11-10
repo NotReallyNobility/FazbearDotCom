@@ -1,0 +1,57 @@
+#graduation {
+    background-image: url(images/gradBackground.jpeg);
+    background-position: 0px 500px;
+}
+
+#gradCap {
+    position: absolute;
+    top: 10px;
+    left: 35px;
+}
+
+#wedding {
+    background-image: url(images/wedding.jpg);
+}
+
+#chicaMask {
+    position: absolute;
+    left: 150px;
+}
+
+#shifted {
+    float: right;
+    width: 50%;
+    padding-right: 5%;
+    margin-top: 0px;
+}
+
+
+#reunion {
+    background-image: url(images/peopleEatingPizza.jpg);
+    background-position: 0px -300px;
+}
+
+#birthday {
+    background-image: url(images/singingShow.png);
+    background-position: 0px -100px;
+}
+
+.segment {
+    height: 500px;
+    position: relative;
+    background-size: cover;
+}
+
+.segment a {
+    position: absolute;
+    top: 75%;
+    left: 75%;
+    width: 250px;
+    height: 50px;
+    font-size: 190%;
+}
+
+.segment img {
+    float: left;
+    padding-left: 5%;
+}

@@ -1,0 +1,22 @@
+#two {
+    background-image: url(images/allToysOnStage.png);
+}
+
+#one {
+    background-image: url(images/FreddysBand.png);
+    background-position: 0px -100px;
+}
+
+#SL {
+    background-image: url(images/slAnimatronicsOnStage.jpg);
+}
+
+#SB {
+    background-image: url(images/AtriumStageView.png);
+}
+
+.segment {
+    height: 500px;
+    position: relative;
+    background-size: cover;
+}

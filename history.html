@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        
+        <title>Fazbear Entertainment</title>
+        
+        <link href="style.css" rel="stylesheet">
+
+        <link href="historyStyle.css" rel="stylesheet">
+    </head>
+    <body>
+        <header class="rounded">
+        <img id="bannerLogo" src="images/fazbearLogo.png" alt="The Fazbear Entertainment Logo" width="150px">
+        
+            <div id="banner">
+                <a class="bannerItem" href="parties.html">Party Packages</a>
+
+                <a class="bannerItem" href="locations.html">Locations</a>
+
+                <a class="bannerItem" href="index.html">Main Page</a>
+
+                <a class="bannerItem" href="empty.html">A Laugh at The Lies</a>
+
+                <a class="bannerItem" href="empty.html">Fazbear's Frights</a>
+            </div> 
+        </header>
+
+
+        
+        
+        <form class="rounded" action="history2.html" method="POST">
+            <div>
+                <img class="rounded" id="freddyWelcome" src="images/freddyWelcome.png" alt="freddy welcoming the guest" width="200px">
+                <h1 class="freddyText">Think YOU have what it takes to be a Faz-historian?</h1>
+                <p class="freddyText">With this quick and easy quiz, you can prove yourself a true studier of our past to me, Freddy Fazbear. Shouldn't be that HARd right?</p>
+            </div>
+
+
+
+            <div class="question">
+                <p>What is the name of our company's founders?</p>
+                <img src="images/aftonHenry.png" alt="a polaroid of the founders">
+                <div class="radioChoice">
+                    <input type="radio" name="founders" value="apple" id="apple" class="incorrect">
+                    <label for="apple">William Appleton and Henry Energy</label>
+                </div>
+                <div class="radioChoice">
+                    <input type="radio" name="founders" value="murrayFounder" id="murrayFounder" class="incorrect">
+                    <label for="murrayFounder">William Afton and Edwin Murray</label>
+                </div>
+                <div class="radioChoice">
+                    <input type="radio" name="founders" value="correctFounders" id="correctFounders" class="correct">
+                    <label for="correctFounders">William Afton and Henry Emily</label>
+                </div>
+                <div class="radioChoice">
+                    <input type="radio" name="founders" value="ie" id="ie" class="incorrect">
+                    <label for="ie">William Aphton and Henrie Emilie</label>
+                </div>
+            </div>
+
+
+
+            <div class="question">
+                <p>How did Murray's Costume Manor come under Fazbear ownership?</p>
+                <img src="images/MCMShowroom.png" alt="A picture of the mcm building" height="200px" class="rounded">
+                <div class="radioChoice">
+                    <input type="radio" name="MCM" value="alwaysOwned" id="alwaysOwned" class="incorrect">
+                    <label for="alwaysOwned">It was always a part of Fazbear Entertainment!</label>
+                </div>
+                <div class="radioChoice">
+                    <input type="radio" name="MCM" value="" id="scummyBusiness" class="incorrect">
+                    <label for="scummyBusiness">The employees were hired out from under them while the company was going downhill.</label>
+                </div>
+                <div class="radioChoice">
+                    <input type="radio" name="MCM" value="tragicPassing" id="tragicPassing" class="correct">
+                    <label for="tragicPassing">In Edwin Murray's tragic passing, Fazbear Entertainment took it upon themselves to ensure his legacy lived on!</label>
+                </div>
+                <div class="radioChoice">
+                    <input type="radio" name="MCM" value="neverOwned" id="neverOwned" class="incorrect">
+                    <label for="neverOwned">Murray's Costume Manor isn't owned by Fazbear Entertainment.</label>
+                </div>
+            </div>
+
+
+
+            <div class="question">
+                <p>Why were the springlock suits discontinued?</p>
+                <img id="captain" src="images/captainSpringlock.png" alt="Captain Springlock" height="200px" class="rounded">
+                <div class="radioChoice">
+                    <input type="radio" name="springlock" value="redundant" id="redundant" class="correct">
+                    <label for="redundant">Our animatronic performers became so lifelike the need for a costume mode was redundant!</label>
+                </div>
+                <div class="radioChoice">
+                    <input type="radio" name="springlock" value="hazard" id="hazard" class="incorrect">
+                    <label for="hazard">The suits were deemed hazardous for performers wearing them</label>
+                </div class="radioChoice">
+                <div>
+                    <input type="radio" name="springlock" value="lost" id="lost" class="incorrect">
+                    <label for="lost">The original models were lost and deemed unworth recreation</label>
+                </div>
+                <div class="radioChoice">
+                    <input type="radio" name="springlock" value="mci" id="mci" class="incorrect">
+                    <label for="mci">The spring bonnie animatronic was involved in an unfortunate incident</label>
+                </div class="radioChoice">
+            </div>
+
+
+
+            <div class="question">
+                <p>Why did the location in Layton, Utah get temporarily shut down ten years ago in 2024?</p>
+                <img src="images/shutdown.png" alt="Freddy in a shutdown location" height="200px" class="rounded">
+                <div class="radioChoice">
+                    <input type="radio" name="whyClosed" value="recycled" id="recycled" class="incorrect">
+                    <label for="recycled">They recycled pizza slices from leftover pizzas.</label>
+                </div>
+                <div class="radioChoice">
+                    <input type="radio" name="whyClosed" value="rats" id="rats" class="incorrect">
+                    <label for="rats">There were rats in the kitchens.</label>
+                </div>
+                <div class="radioChoice">
+                    <input type="radio" name="whyClosed" value="allAbove" id="allAbove" class="incorrect">
+                    <label for="allAbove">All of the above.</label>
+                </div>
+                <div class="radioChoice">
+                    <input type="radio" name="whyClosed" value="competition" id="competition" class="correct">
+                    <label for="competition">The competition, Candy's Burgers and Fries, spilled copious amounts of ground beef on the floor, staining the tiles until they could be replaced.</label>
+                </div>
+            </div>
+
+
+
+            <button type="submit" value="submit" class="rounded">Submit Your Answers!</button>
+        </form>
+
+    </body>
+</html>

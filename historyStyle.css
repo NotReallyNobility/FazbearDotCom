@@ -1,0 +1,63 @@
+body {
+    background-image: url(images/confettiBackground.jpg);
+}
+
+form {
+    background-image: radial-gradient(ellipse at center, fuchsia, darkorchid);
+    width: 80%;
+    margin: 10%;
+    margin-top: 3%;
+    border: 3px dotted yellow;
+}
+
+#freddyWelcome, #captain{
+    background-image: repeating-linear-gradient(blue, cyan 8%, white 2%);
+}
+
+.freddyText {
+    color: chocolate;
+}
+
+.question {
+    margin-bottom: 100px;
+}
+
+.CRYING {
+    position: absolute;
+    top: 500%;
+    width: 100%;
+    left: 0px;
+    margin: 0px;
+    background-color: black;
+    color: black;
+}
+
+.CRYING input[type="radio"]:checked + label {
+    text-shadow: 
+        1px 1px white,
+        1px -1px white,
+        -1px 1px white,
+        -1px -1px white;
+}
+
+.radioChoice {
+    font-size: large;
+}
+
+.correct:checked + label {
+    color: greenyellow;
+}
+
+.incorrect:checked + label {
+    color: red;
+}
+
+button {
+    border-color: yellow;
+    margin-bottom: 20px;
+}
+
+button:hover {
+    box-shadow: 5px 5px black;
+    border: 3px solid red;
+}
