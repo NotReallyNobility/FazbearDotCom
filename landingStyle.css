@@ -27,6 +27,11 @@ h3{
 p {
     font-size: medium;
 }
+
+a {
+    background-image: none;
+    background-color: darkmagenta;
+}
 /*
 .imagePlusText {
     padding-bottom: 10px;
