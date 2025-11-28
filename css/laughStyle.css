@@ -1,0 +1,27 @@
+body {
+    background-image: radial-gradient(circle at center, navy, black);
+}
+
+#review1 {
+    position: absolute;
+    top: 600px;
+    left: 50px;
+}
+
+#review2 {
+    position: absolute;
+    top: 700px;
+    left: 1200px;
+}
+
+#review3 {
+    position: absolute;
+    top: 200px;
+    left: 75px;
+}
+
+#review4 {
+    position: absolute;
+    top: 200px;
+    left: 1100px;
+}

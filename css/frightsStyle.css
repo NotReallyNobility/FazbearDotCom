@@ -1,0 +1,44 @@
+body {
+    background-image: radial-gradient(circle at center, gray, black);
+}
+
+#FFLogo {
+    margin-top: 100px;
+}
+
+.floated {
+    display: flex;
+    justify-content: space-around;
+}
+
+.heading {
+    color: green;
+    background-color: black;
+    width: fit-content;
+    padding: 10px 40px 10px 40px;
+    justify-self: center;
+    border-radius: 50%;
+}
+
+#linksAtBottom {
+    justify-self: center;
+    width: 50%;
+}
+
+.links {
+    background-image: none;
+    border: none;
+}
+
+.links:hover {
+    box-shadow: 5px 5px purple;
+    border: none;
+}
+
+#scholastic {
+    background-image: none;
+}
+
+#barnesAndNobles {
+    background-color: white;
+}
