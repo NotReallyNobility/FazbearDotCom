@@ -1,0 +1,101 @@
+@font-face {
+    font-family: Consola;
+    src: url(../downloadedFonts/CONSOLA.TTF) format('truetype');
+}
+
+
+
+
+body{    
+    text-align: center;
+    font-weight: bold;
+    color: gold;
+    text-shadow: 
+        1px 1px black,
+        1px -1px black,
+        -1px 1px black,
+        -1px -1px black;
+}
+
+h2 {
+    font-size: 200%;
+}
+            
+p {
+    font-size: 150%;
+}
+
+#fredPoint {
+    float: left;
+}
+
+.big {
+    margin-top: 90px;
+    font-size: 600%;
+}
+
+#welcome {
+    clear: both;
+    font-size: 300%;
+}
+
+.imagePlusText {
+    display: flex;
+    padding: 30px;
+    padding-left: 150px;
+    align-items: center;
+}
+
+.character {
+    background-image: url(../images/confettiBackground.jpg);
+    background-size: 50px;
+}
+
+.characterText {
+    text-align: center;
+    width: 100%;
+    font-size: 250%;
+}
+
+#welcomeHonk {
+    width: 25px;
+    height: 20px;
+    position: absolute;
+    top: 220px;
+    left: 485px;
+}
+
+#lineUp {
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    height: 150px;
+    width: 600px;
+    justify-self: center;
+}
+
+.characterBox {
+    width: 100px;
+}
+
+.selector {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    font-family: Consola, monospace;
+    color: white;
+    text-shadow: none;
+    width: 100px;
+    top: -20px;
+
+    padding: 0px;
+    margin: 0px;
+}
+
+.arrow {
+    background-color: #414141;
+}
+
+.arrow:hover {
+    cursor: pointer;
+}

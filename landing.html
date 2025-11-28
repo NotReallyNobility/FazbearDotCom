@@ -5,69 +5,137 @@
         
         <title>Fazbear Entertainment</title>
         
-        <link href="style.css" rel="stylesheet">
-        <link href="landingStyle.css" rel="stylesheet">
-        
+        <link href="css/style.css" rel="stylesheet">
+        <link href="css/landingStyle.css" rel="stylesheet">
     </head>
 
     <!--background image saved as "confetti_background" on pc, for once I've figured out relative pathing.-->
     <body>
+
+        <script src="javascript/javascript.js" defer></script>
+        <script src="javascript/landJScript.js" defer></script>
         <!--All images using characters or places from the five nights at freddy's franchise are from fandom.com -->
-        <img src="images\fazbearLogo.png" alt="Fazbear Entertainment Logo" width="600 px">
+        <header class="rounded">
+            <div class="honkable bannerHonk"></div>
+            <img id="bannerLogo" src="images/fazbearLogo.png" alt="The Fazbear Entertainment Logo" width="150px">
         
-        <section #beginning>
-            <h1>YOU!</h1>
-            <h2>YES YOU!</h2>
+            <div id="banner">
+                <a class="bannerItem" href="parties.html">Party Packages</a>
+
+                <a class="bannerItem" href="locations.html">Locations</a>
+
+                <a class="bannerItem" href="history.html">The Real History</a>
+
+                <a class="bannerItem" href="laugh.html">A Laugh at The Lies</a>
+
+                <a class="bannerItem" href="frights.html">Fazbear's Frights</a>
+            </div> 
+        </header>
         
-            <p>Welcome to the Fazbear Entertainment faz-website, home to all your favorite band members! </p>
+
+
+        <div class="honkable" id="welcomeHonk"></div>
+        <img id="fredPoint" src="images\fazbearLogo.png" alt="Fazbear Entertainment Logo" width="600 px">
+        
+        <section id="beginning">
+            <h1 class="big">YOU!</h1>
+            <h2 class="big">YES YOU!</h2>
         </section>
         
+        <p id="welcome">Welcome to the Fazbear Entertainment faz-website, home to all your favorite band members! </p>
         
-        <section #Character-intros>
+        
+        
+        <section id="Character-intros">
             
             <div class="imagePlusText">
-                <img src="images/bonnieMugshot.png" alt="Bonnie on stage" width="100" class="character">
-                <h3 class="characterText">Whether your a fan of cool tunes with everyone's best buddy Bonnie,</h3>
+                <img src="images/claudiaBonnie.png" alt="Bonnie on stage" height="200" class="character rounded">
+                <h3 class="characterText">Whether you're a fan of cool tunes with everyone's best buddy Bonnie,</h3>
             </div>
 
             <div class="imagePlusText">
-                <img src="images/chicaMugshot.png" alt="Chica on stage" width="100" class="character">
+                <img src="images/claudiaChica.png" alt="Chica on stage" height="200" class="character rounded">
                 <h3 class="characterText">A culinary connoisseur like Chica,</h3>
             </div>
 
             <div class="imagePlusText">
             
-                <img src="images/foxyMugshot.png" alt="Foxy on stage" width="100" class="character">
-                <h3 class="characterText">An adventurer like Foxy,</h3>
+                <img src="images/claudiaFoxy.png" alt="Foxy on stage" height="200" class="character rounded">
+                <h3 class="characterText">A fearless free spirit fit for Foxy's crew,</h3>
             </div>
 
             <div class="imagePlusText">
             
-            <img src="images/freddyMugshot.png" alt="Foxy on stage" width="100" class="character">
-            <h3 class="characterText">Or maybe someone who likes the soothing tones of our namesake and iconic showman Freddy Fazbear,</h3>
+            <img src="images/claudiaFreddy.png" alt="Freddy singing" height="200" class="character rounded">
+            <h3 class="characterText">Or maybe someone who likes the soothing tones of our iconic showman Freddy Fazbear,</h3>
             </div>
 
             <div style="padding: 10px;">
-                <img src="images/FreddysBand.png" alt="The band playing together" width="600">
+                <img src="images/showtime.gif" alt="The band playing together" width="600" class="rounded">
                 <p>Freddy and friends are bound to give you a dinner and a show you'll remember for the rest of your life!</p>
             </div>
             </section>
 
-        <section #about>
+        <section id="about">
             <h2>About Our Faz-erific Company</h2>
             <p>
                 We here at Fazbear entertainment are dedicated to bringing fantasy and fun to life! 
                 Serving the world smiles and slices since the 1970's, you can gurantee we've gathered every remnant of information on how to provide the best of service.
-                Starting small with Fredbear's Family Diner, our business quickly grew with the help of Murray's Costume Manor, and eventual merging with their business.
-                Now we've reached towering heights with our      faz-tastic <strong><em>Mega Pizzaplex!</em></strong>
+                Starting small with Fredbear's Family Diner, our business quickly grew with the help of Murray's Costume Manor, and the eventual merging with their business.
+                Now we've reached towering heights with our faz-tastic <strong><em>Mega Pizzaplex!</em></strong>
             </p>
             <img src="images/lobbyArea.png" alt="Lobby of the Mega Pizzaplex" width="600">
         </section>
 
-        <section #link>
+        <section id="link">
             <h2>Got You Hooked?</h2>
             <!--This will eventually link to a different page in the website, currently that website doesn't exist so we'll just leave the link here-->
-            <p>Well then, why not stop on by to our <a href="index.html">main page!</a></p>
+            <p>Well then, why not stop on by to our <a href="index.html">main page!</a> But before you leave, feel free to rate our characters on a scale from one to twenty.</p>
+
+
+
+
+
+        <div id="lineUp">
+            <div class="characterBox">
+                <img src="images/freddyMugshot.png" alt="freddy mugshot" width="100px">
+                <div class="selector">
+                    <p class="arrow leftArrow">&lt;</p>
+                    <p class="aggressionNumber">0</p>
+                    <p class="arrow rightArrow">&gt;</p>
+                </div>
+            </div>
+
+            <div class="characterBox">
+                <img src="images/bonnieMugshot.png" alt="bonnie mugshot" width="100px">
+                <div class="selector">
+                    <p class="arrow leftArrow">&lt;</p>
+                    <p class="aggressionNumber">0</p>
+                    <p class="arrow rightArrow">&gt;</p>
+                </div>
+            </div>
+
+            <div class="characterBox">
+                <img src="images/chicaMugshot.png" alt="chica mugshot" width="100px">
+                <div class="selector">
+                    <p class="arrow leftArrow">&lt;</p>
+                    <p class="aggressionNumber">0</p>
+                    <p class="arrow rightArrow">&gt;</p>
+                </div>
+            </div>
+
+            <div class="characterBox">
+                <img src="images/foxyMugshot.png" alt="foxy mugshot" width="100px">
+                <div class="selector">
+                    <p class="arrow leftArrow">&lt;</p>
+                    <p class="aggressionNumber">0</p>
+                    <p class="arrow rightArrow">&gt;</p>
+                </div>
+            </div>
+        </div>
+
+        <p>Curious to see more about your favorite character?</p>
+        <p><span id="rateClickable">Click Here!</span></p>
         </section>
     </body>
 </html>
