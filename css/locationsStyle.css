@@ -20,3 +20,25 @@
     position: relative;
     background-size: cover;
 }
+
+.flex {
+    display: flex;
+    justify-content: space-around;
+}
+
+.flex img {
+    background-image: url("../images/confettiBackground.jpg");
+    border: 6px solid black;
+}
+
+#monty {
+    background-image: linear-gradient(to bottom, green 50%, lime, darkorchid, purple);
+    border: 6px solid black;
+    width: 50%;
+}
+
+#roxy {
+    background-image: linear-gradient(to bottom, darkred 50%, gray, darkslategray, purple);
+    border: 6px solid black;
+    width: 50%;
+}
