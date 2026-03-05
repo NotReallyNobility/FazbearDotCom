@@ -1,6 +1,11 @@
 (https://github.com/NotReallyNobility/FazbearDotCom.git
 The website contains a landing page, a home page, and five additional main pages.
 
+Updates for SWDV 141 Project 1:
+The majority of the secrets planned to be hidden in certain pages have been implemented. These updated pages incluede the party packages page, locations page(click on the two characters at the bottom), laugh at the lies page (has to do with the header), and the Fazbear Frights page.
+
+Form validation has been added to the "booked" page by having the user input a valid email, checked using regex before allowing the user to submit the form, which then sends them to the newly added confirmation page which does nothing but redirect the user back to the party page or allow them to head to any of the banner pages.
+
 The landing has a basic introduction, setting the humorous tone and establishing that the content is written from the perspective of Fazbear Entertainment, who is covering up the controversies and tragedies surrounding their company. There is also a segment where you can rate the characters on a scale of 0 to 20, as a reference to the custom night. You can click the text that says "click here" to create a pop up displaying information about the highest rated character. A secret exists in the form of rating the four characters 1, 9, 8, and then 7. When "click here" is clicked, it won't create the pop up but rather play the night 6 phone call from fnaf 2.
 
 The Home page gives a taste of what the other page's format will be, as well as the content inside them. From this point on there is also a navigation bar at the top of the page.
