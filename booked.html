@@ -5,13 +5,26 @@
         
         <title>Fazbear Entertainment</title>
         
+        <link href="images/freddyFavicon.png" rel="icon">
         <link href="css/style.css" rel="stylesheet">
         <link href="css/bookedStyle.css" rel="stylesheet">
     </head>
     <body>
+        <script src="javascript/javascript.js" defer></script>
+        <script src="javascript/bookedJScript.js" defer></script>
+
         <h1 class="confetti">UH OH!</h1>
         <img src="images/Helpy-Lawsuit.gif" alt="helpy looking over paper">
         <p id="text1">Looks like we're all booked for these parties due to overwhelming demand.</p>
+
+        <form action="confirmation.html" method="POST">
+            <p style="width:80%; justify-self: center;">If you'd like to hear when we've got a open spot you can input your email and be first to know! The button will turn green once you have a valid input.</p>
+            <label for="emailInput">Email: </label>
+            <input type="text" name="emailInput" id="emailInput">
+
+            <button type="submit" id="submit" disabled>Submit</button>
+        </form>
+
         <p id="text2">Time to head back to the <a href="parties.html">party packages.</a> See you again soon!</p>
     </body>
 </html>

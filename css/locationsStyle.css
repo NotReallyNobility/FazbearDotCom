@@ -31,6 +31,10 @@
     border: 6px solid black;
 }
 
+.character:hover {
+    cursor: pointer;
+}
+
 #monty {
     background-image: linear-gradient(to bottom, green 50%, lime, darkorchid, purple);
     border: 6px solid black;

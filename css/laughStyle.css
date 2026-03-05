@@ -25,3 +25,7 @@ body {
     top: 200px;
     left: 1100px;
 }
+
+#scare:hover {
+    cursor: pointer;
+}

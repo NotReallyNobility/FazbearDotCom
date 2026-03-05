@@ -42,3 +42,15 @@ body {
 #barnesAndNobles {
     background-color: white;
 }
+
+#bobbleHead {
+    width: 10px;
+    height: 20px;
+    position: absolute;
+    left: 179px;
+    top: 753px;
+}
+
+#bobbleHead:hover {
+    cursor: pointer;
+}

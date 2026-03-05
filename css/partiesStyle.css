@@ -55,3 +55,7 @@
     float: left;
     padding-left: 5%;
 }
+
+#happiestDay {
+    cursor: pointer;
+}

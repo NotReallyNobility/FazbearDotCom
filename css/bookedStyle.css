@@ -9,6 +9,26 @@ h1 {
     justify-self: center;
 }
 
+button {
+    text-shadow: 
+        1px 1px black,
+        1px -1px black,
+        -1px 1px black,
+        -1px -1px black;
+}
+
+button:disabled {
+    border-color: red;
+}
+
+button:enabled {
+    border-color: blue;
+}
+
+button:enabled:hover {
+    border-color: lime;
+}
+
 #text1 {
     position: absolute;
     top: 100px;
