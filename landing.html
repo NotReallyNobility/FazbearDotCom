@@ -6,17 +6,20 @@
         <title>Fazbear Entertainment</title>
         
         <link href="images/freddyFavicon.png" rel="icon">
+
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet">
         <link href="css/style.css" rel="stylesheet">
         <link href="css/landingStyle.css" rel="stylesheet">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <script src="javascript/javascript.js" defer></script>
+        <script src="javascript/landJScript.js" defer></script>
     </head>
 
     <!--background image saved as "confetti_background" on pc, for once I've figured out relative pathing.-->
     <body>
-
-        <script src="javascript/javascript.js" defer></script>
-        <script src="javascript/landJScript.js" defer></script>
         <!--All images using characters or places from the five nights at freddy's franchise are from fandom.com -->
-        <header class="rounded">
+        <header class="animate__animated animate__fadeIn rounded">
             <div class="honkable bannerHonk"></div>
             <img id="bannerLogo" src="images/fazbearLogo.png" alt="The Fazbear Entertainment Logo" width="150px">
         
@@ -33,17 +36,15 @@
             </div> 
         </header>
         
-
-
         <div class="honkable" id="welcomeHonk"></div>
-        <img id="fredPoint" src="images\fazbearLogo.png" alt="Fazbear Entertainment Logo" width="600 px">
+        <img id="fredPoint" src="images\fazbearLogo.png" alt="Fazbear Entertainment Logo" width="600px">
         
         <section id="beginning">
             <h1 class="big">YOU!</h1>
             <h2 class="big">YES YOU!</h2>
         </section>
         
-        <p id="welcome">Welcome to the Fazbear Entertainment faz-website, home to all your favorite band members! </p>
+        <p id="welcome" class="animate__animated animate__fadeInUp">Welcome to the Fazbear Entertainment faz-website, home to all your favorite band members! </p>
         
         
         

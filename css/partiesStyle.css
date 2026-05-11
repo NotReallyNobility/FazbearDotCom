@@ -3,19 +3,8 @@
     background-position: 0px 500px;
 }
 
-#gradCap {
-    position: absolute;
-    top: 10px;
-    left: 35px;
-}
-
 #wedding {
     background-image: url(../images/wedding.jpg);
-}
-
-#chicaMask {
-    position: absolute;
-    left: 150px;
 }
 
 #shifted {

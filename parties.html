@@ -6,14 +6,17 @@
         <title>Fazbear Entertainment</title>
 
         <link href="images/freddyFavicon.png" rel="icon">
+
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet">
         <link href="css/style.css" rel="stylesheet">
         <link href="css/partiesStyle.css" rel="stylesheet">
-    </head>
-    <body>
 
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
         <script src="javascript/javascript.js" defer></script>
         <script src="javascript/partyJScript.js" defer></script>
-        <header class="rounded">
+    </head>
+    <body>
+        <header class="animate__animated animate__fadeIn rounded">
             <div class="honkable bannerHonk"></div>
             <img id="bannerLogo" src="images/fazbearLogo.png" alt="The Fazbear Entertainment Logo" width="150px">
         
@@ -38,33 +41,32 @@
 
         <div id="graduation" class="segment rounded">
             <h1>Graduations!</h1>
-            <img src="images/freddyStanding.png" alt="freddy png" height="400px">
-            <img id="gradCap" src="images/gradCap.png" alt="graduation cap" width="200px">
+            <!--<img src="images/freddyStanding.png" alt="freddy png" height="400px">-->
+            
             <p>We understand what a precious thing growing up is, and Freddy and friends have watched you come so far since you were a kid. Come on down and celebrate your transition into adulthood with the gang!</p>
             <p>The Fazbear Graduation Package comes with a specialized performance of YOUR chosen song, 5 soda refills each, and 5 trays of pizza!</p>
-            <a href="booked.html">Check Availability</a>
+            <a href="booked.html" class="animate__animated animate__pulse animate__infinite">Check Availability</a>
         </div>
 
         <div id="wedding" class="segment rounded">
             <h1>Weddings!</h1>
-            <img id="chicaMask" src="images/chicaMask.png" alt="a chica mask" height="300px">
             <p>Have your special day at our special place! Let this treasured memory be made better by the performance of our animatronic performers!</p>
             <p id="shifted">The Fazbear Wedding Package comes with Freddy ordaining your marriage, unlimited breadsticks, a complimentary basket of exotic butters, and baskets of chicken wings for all attendees!</p>
-            <a href="booked.html">Check Availability</a>
+            <a href="booked.html" class="animate__animated animate__pulse animate__infinite">Check Availability</a>
         </div>
 
         <div id="reunion" class="segment rounded">
             <h1>Reunions</h1>
             <p>It's a sad thing being stuck away from your family. If you think you've spent too long apart, allow us to put you back together again!</p>
             <p>The Fazbear Reunion Package comes with unlimited pizza slices, a custom playlist of songs, and unlimited refills of soda!</p>
-            <a href="booked.html">Check Availability</a>
+            <a href="booked.html" class="animate__animated animate__pulse animate__infinite">Check Availability</a>
         </div>
 
         <div id="birthday" class="segment rounded">
             <h1>Birthdays</h1>
             <p>Birthdays have always been our most popular package! Kids have always loved our shows, and it's not hard to see why!</p>
             <p>The Fazbear Birthday Package comes with a special birthday song by Freddy himself, infinite slices, infinite soda refills, complimentary character masks, and a cake! Make it their <span id="happiestDay" role="button">happiest day!</span></p>
-            <a href="booked.html">Check Availability</a>
+            <a href="booked.html" class="animate__animated animate__pulse animate__infinite">Check Availability</a>
         </div>
     </body>
 </html>
