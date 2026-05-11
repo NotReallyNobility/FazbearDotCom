@@ -1,8 +1,10 @@
-(https://github.com/NotReallyNobility/FazbearDotCom.git
+https://github.com/NotReallyNobility/FazbearDotCom.git
 The website contains a landing page, a home page, and five additional main pages.
 
-Updates for SWDV 141 Project 1:
-The majority of the secrets planned to be hidden in certain pages have been implemented. These updated pages incluede the party packages page, locations page(click on the two characters at the bottom), laugh at the lies page (has to do with the header), and the Fazbear Frights page.
+Updates for SWDV 141 Project 4:
+-The Jquery framework was utilized for the refactoring of all javascript as the majority of excess lines came from selectors in the previous version. No new javascript was added.
+-The animate.css library was used to add stylization to several elements in the code. The most consistent use is through the banner fading in, though it is also used to put several elements on an infinite loop where they move to either draw attention to an interactable element, or simply emphasize urgency with the "GO! GO! GO!" found in the locations page.
+-Reduced file count by merging certain images I didn't understand how to previously. This has reduced the file count by 7 and allowed more accurate visual control.
 
 Form validation has been added to the "booked" page by having the user input a valid email, checked using regex before allowing the user to submit the form, which then sends them to the newly added confirmation page which does nothing but redirect the user back to the party page or allow them to head to any of the banner pages.
 
